@@ -1,0 +1,16 @@
+# Original downloaded data
+/data/raw/
+
+# Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local configuration and deployment state
+.env
+.env.*
+!.env.example
+.databricks/
+.databrickscfg
